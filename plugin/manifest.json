@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Ghost Decoder Viewer",
+  "version": "1.2",
+  "permissions": [
+    "tabs",
+    "http://127.0.0.1:8888/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Decode & Ghost Request"
+  },
+  "web_accessible_resources": [
+    "ghost_latest.html"
+  ]
+}
+ 
