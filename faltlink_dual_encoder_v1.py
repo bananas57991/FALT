@@ -21,7 +21,8 @@ def main():
     # Step 5: Append the base64 result with the original domain name
     final_result = f"{base64_result}.{domain_name}"
 
-    print("Result:", final_result)
+    print(f"Result: http://falt/{final_result}")
+
 
 
 #step one logic:
